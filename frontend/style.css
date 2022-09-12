@@ -1,0 +1,193 @@
+* body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    ;
+}
+
+.wrapper {
+    background-color: #c3f3ee;
+    height: 380px;
+    padding: 5px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.wrapper::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+span {
+    display: block;
+}
+
+.cardone {
+    background-color: white;
+    border-radius: 5px;
+    height: 230px;
+    width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 35px;
+    float: left;
+}
+
+.card2 {
+    background-color: white;
+    border-radius: 5px;
+    height: 280px;
+    width: 250px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: 35px;
+    float: left;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+}
+
+img.img2 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 13px;
+
+}
+
+aside h2 {
+    margin-top: 15px;
+    position: relative;
+    top: 5px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+aside h4 {
+
+    margin-top: -12px;
+    font-size: 0.65em;
+    font-weight: 100;
+}
+
+aside {
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+h4 img {
+    height: 14px;
+    width: 14px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.services section h3 {
+
+    width: 350px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.services section h4 {
+    text-align: center;
+    font-size: 0.85em;
+    font-weight: 300;
+    width: 400px;
+
+}
+
+.prices {
+    height: 260px;
+    border-radius: 10px;
+    border-color: goldenrod;
+    background-color: antiquewhite;
+    width: 320px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    border-width: 1px;
+    padding-right: 30px;
+    border-style: solid;
+}
+
+
+
+button {
+    align-items: center;
+    width: 320px;
+    height: 40px;
+    background-color: cornflowerblue;
+    border-width: 0px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+}
+
+
+em {
+    font-size: 0.5em;
+    font-weight: 300;
+    background-color: inherit;
+    margin-left: -15px;
+    font-style: normal;
+}
+
+.prices h1 {
+    font-weight: bolder;
+    font-size: 3.0em;
+    margin-top: -25px;
+    margin-bottom: -5px;
+}
+
+.services {
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+footer h4 {
+    font-size: 0.8em;
+    font-weight: 600;
+    float: left;
+
+}
+
+footer h4.date {
+    font-size: 0.8em;
+    font-weight: 600;
+    float: right;
+}
+
+
+
+footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+article {
+    margin-bottom: 5px;
+}
+
+
+.btnimg {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 75px;
+    margin-top: 13px;
+
+}
