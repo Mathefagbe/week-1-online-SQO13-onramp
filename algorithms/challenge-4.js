@@ -1,4 +1,4 @@
-let marks = [59, 80, 40, 2, 77];
+let marks = [90, 70, 100, 80, 100];
 function calculateGrade(marks) {
     let grades = []
     for (let gradeMarks of marks) {
@@ -6,7 +6,7 @@ function calculateGrade(marks) {
     }
     let totalgrade = grades.reduce((a, b) => a + b);
     //parseint help to convert into integer from decimal or string
-    let averagegrade = parseInt(totalgrade / grades.length);
+    let averagegrade = parseInt(totalgrade / grades.length,10);
 
     if (1 <= averagegrade && averagegrade <= 49) {
         return "F"

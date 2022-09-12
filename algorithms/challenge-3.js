@@ -1,4 +1,4 @@
-let arr =['3', 6, 6, 0, '5', 8, 5, '6', 2,'0']
+let arr =['3', 10, 6, 0, '5', 8, 5, '6', 2,'0']
 function sumMix(arr) {
     let num = []
 
@@ -9,7 +9,7 @@ function sumMix(arr) {
         if (typeof arr[i] === "number") {
             num.push(arr[i]);
         } else {
-            convertedletter.push(parseInt(arr[i]))
+            convertedletter.push(parseInt(arr[i],10))
         }
     }
     let totallist = [...num, ...convertedletter];
